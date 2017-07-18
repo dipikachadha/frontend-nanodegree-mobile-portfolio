@@ -4,19 +4,19 @@ Improvements Implemented:
 
 Index.html
 
-1.Compressed and resized pizzeria.jpg.
-2.Compressed profile picture.
-3.Compressed cam_be_like.jpg.
-4.Compressed 2048.png
-5.Inlined css.
-6.Removed request for google fonts and included the the required fonts in html.
-7.Minify index.html.
+1. Compressed and resized pizzeria.jpg.
+2. Compressed profile picture.
+3. Compressed cam_be_like.jpg.
+4. Compressed 2048.png
+5. Inlined css.
+6. Removed request for google fonts and included the the required fonts in html.
+7. Minify index.html.
 
 views/js/main.js
 
-1.Refactored updatePositions function which involved removing a bunch of unnecessary calculations and simplifying the for-loop.
-2.Refactored changePizzaSizes function again removing unnecessary calculations and removed forced asynchronous layout.
-3.minified main.js
+1. Refactored updatePositions function which involved removing a bunch of unnecessary calculations and simplifying the for-loop.
+2. Refactored changePizzaSizes function again removing unnecessary calculations and removed forced asynchronous layout.
+3. Minified main.js
 
 views/css/style.css
 
