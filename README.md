@@ -17,12 +17,18 @@ views/js/main.js
 1. Refactored updatePositions function which involved removing a bunch of unnecessary calculations and simplifying the for-loop.
 2. Refactored changePizzaSizes function again removing unnecessary calculations and removed forced asynchronous layout.
 3. Minified main.js
+5. For randomPizzas querySelectorAll is replaced getElementsByClassName.
+6. Declared the pizzasDiv variable outside the loop, so only DOM call is made one.
+7. Declared the phase variable (var phase;) in the initialisation of the for loop so as to prevent it from being created every time the loop is executed.
+8. Reduced the no.of background pizzas to 24.
+
 
 views/css/style.css
 
 1. minified css.
 2. minified bootstrap-grid.css.
 3. Added transform: translateZ() to randomPizzaContainer.
+4. Added backface-visibility: hidden; property to randomPizzaContainer.
 
 pizza.html
 
